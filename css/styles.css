@@ -51,6 +51,7 @@ p {
 
 .nav-item {
   padding: 0 18px;
+
 }
 
 .nav-link {
@@ -146,24 +147,30 @@ p {
 }
 
 /* CTA Section */
+
 /* Footer Section */
 .social-icon {
   margin: 20px 10px;
   width:50px;
   height:50px;
-  color: #253b6e;
+  color: #1891ac;
   border-style: solid;
   border-radius: 10%;
 }
 
-.social-icon:hover {
+.turn-blue{
   color: #1891ac;
 }
 
-.smaller{
+.social-icon:hover {
+  color: #253b6e;
+
+}
+
+/* .smaller{
   width:16px;
   height:16px;
-}
+} */
 
 @media (max-width: 1028px) {
   #title {
