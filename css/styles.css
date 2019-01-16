@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  color: #8f8f8f;
+  color: white;
 }
 
 /* Headings */
@@ -148,6 +148,11 @@ p {
 
 /* CTA Section */
 
+/* References */
+
+/* Biography */
+
+/*Contact*/
 /* Footer Section */
 .social-icon {
   margin: 20px 10px;
