@@ -13,7 +13,7 @@ p {
 
 /* Headings */
 .big-heading {
-  font-family: "Montserrat-Black";
+  font-family: "Montserrat";
   font-size: 3.5rem;
   line-height: 1.5;
 }
@@ -44,7 +44,7 @@ p {
 }
 
 .navbar-brand {
-  font-family: "Ubuntu";
+  font-family: "Montserrat";
   font-size: 2.5rem;
   font-weight: bold;
 }
@@ -56,7 +56,13 @@ p {
 
 .nav-link {
   font-size: 1.2rem;
-  font-family: "Montserrat-Light";
+  font-family: "Montserrat";
+  font-weight: normal;
+}
+.nav-link:hover {
+  color: white;
+  border-style: solid;
+
 }
 
 /* Buttons */
@@ -82,6 +88,10 @@ p {
   position: absolute;
   right: 25%;
   border-radius: 50%;
+}
+
+.white-text{
+  color:white;
 }
 
 /* Features Section */
@@ -169,7 +179,6 @@ p {
 
 .social-icon:hover {
   color: #253b6e;
-
 }
 
 /* .smaller{
