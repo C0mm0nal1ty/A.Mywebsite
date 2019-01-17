@@ -51,7 +51,6 @@ p {
 
 .nav-item {
   padding: 0 18px;
-
 }
 
 .nav-link {
@@ -59,10 +58,10 @@ p {
   font-family: "Montserrat";
   font-weight: normal;
 }
+
 .nav-link:hover {
   color: white;
   border-style: solid;
-
 }
 
 /* Buttons */
@@ -90,8 +89,8 @@ p {
   border-radius: 50%;
 }
 
-.white-text{
-  color:white;
+.white-text {
+  color: white;
 }
 
 /* Features Section */
@@ -143,8 +142,23 @@ p {
 }
 
 /* Pricing Section */
-#pricing {
+/* #pricing {
   padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+} */
+
+/**********************************************************************/
+/* Education */
+#pricing {
+  padding: 50px 10px 50px 50px;
 }
 
 .price-text {
@@ -156,42 +170,67 @@ p {
   padding: 3% 2%;
 }
 
+/* Certifications */
+.list-align-certifications {
+  text-align: center;
+  color: #253b6e;
+}
+
+.card-item {
+  text-align: left;
+}
+
+.card-item:hover {
+  color: #1891ac;
+}
+
+.card-heading {
+  margin-top: 10px;
+  text-align: center;
+  color: #1891ac;
+}
+
+/**********************************************************************/
 /* COMMUNITY INVOLVEMENT */
-.community-images{
+.community-images {
   position: relative;
   text-align: center;
   padding: 10px 10px 10px 10px;
   border-radius: 10%;
-  width:70%;
+  width: 70%;
 }
 
-.subtexter{
+.subtexter {
   font-size: 2rem;
+}
+
+/* COMMUNITY INVOLVEMENT */
+.press-images {
+  position: relative;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10%;
+  width: 70%;
 }
 
 /*Contact*/
 /* Footer Section */
 .social-icon {
   margin: 20px 10px;
-  width:50px;
-  height:50px;
+  width: 50px;
+  height: 50px;
   color: #1891ac;
   border-style: solid;
   border-radius: 10%;
 }
 
-.turn-blue{
+.turn-blue {
   color: #1891ac;
 }
 
 .social-icon:hover {
   color: #253b6e;
 }
-
-/* .smaller{
-  width:16px;
-  height:16px;
-} */
 
 @media (max-width: 1028px) {
   #title {
