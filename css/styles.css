@@ -3,13 +3,13 @@ body {
   text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
+/* h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat-Bold";
 }
 
 p {
   color: white;
-}
+} */
 
 /* Headings */
 .big-heading {
@@ -35,7 +35,8 @@ p {
 }
 
 .white-section {
-  background-color: #d2ecf9;
+  background-color: #fff;
+  color: #1f5f8b;
 }
 
 /* Navigation Bar */
@@ -154,16 +155,10 @@ p {
 .pricing-column {
   padding: 3% 2%;
 } */
-
 /**********************************************************************/
 /* Education */
-#pricing {
-  padding: 50px 10px 50px 50px;
-}
-
-.price-text {
-  font-size: 3rem;
-  line-height: 1.5;
+#education {
+  padding: 100px;
 }
 
 .pricing-column {
@@ -185,9 +180,19 @@ p {
 }
 
 .card-heading {
+  font-family: "Montserrat";
   margin-top: 10px;
   text-align: center;
   color: #1891ac;
+  font-weight: bold;
+}
+
+.image-adjust{
+  position: relative;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10%;
+  width: 70%;
 }
 
 /**********************************************************************/
@@ -204,7 +209,6 @@ p {
   font-size: 2rem;
 }
 
-/* COMMUNITY INVOLVEMENT */
 .press-images {
   position: relative;
   text-align: center;
@@ -213,23 +217,28 @@ p {
   width: 70%;
 }
 
+.carousel-arrow{
+background-color: #1891ac;
+  color: #1891ac;
+  opacity:1.0;
+  border-style: solid;
+  border-radius: 10%;
+}
+
+/**********************************************************************/
 /*Contact*/
 /* Footer Section */
 .social-icon {
   margin: 20px 10px;
   width: 50px;
   height: 50px;
-  color: #1891ac;
   border-style: solid;
   border-radius: 10%;
 }
 
-.turn-blue {
-  color: #1891ac;
-}
 
 .social-icon:hover {
-  color: #253b6e;
+  color: #d2ecf9;
 }
 
 @media (max-width: 1028px) {
