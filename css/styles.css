@@ -21,6 +21,7 @@ p {
 .section-heading {
   font-size: 3rem;
   line-height: 1.5;
+  font-weight: bold;
 }
 
 /* Containers */
@@ -142,19 +143,7 @@ p {
   margin: 20px 20px 50px;
 }
 
-/* Pricing Section */
-/* #pricing {
-  padding: 100px;
-}
 
-.price-text {
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-.pricing-column {
-  padding: 3% 2%;
-} */
 /**********************************************************************/
 /* Education */
 #education {
@@ -165,6 +154,18 @@ p {
   padding: 3% 2%;
 }
 
+.cert-icon{
+  width: 125px;
+  height: 100px;
+  border-style: solid;
+  border-radius: 10%;
+  border-color: #1891ac;
+}
+
+.cert-icon-align{
+  text-align: center;
+}
+
 /* Certifications */
 .list-align-certifications {
   text-align: center;
@@ -173,11 +174,12 @@ p {
 
 .card-item {
   text-align: left;
+  color:#1f5f8b;
 }
 
-.card-item:hover {
-  color: #1891ac;
-}
+/* .card-item:hover {
+  color: #1f5f8b;
+} */
 
 .card-heading {
   font-family: "Montserrat";
