@@ -156,11 +156,18 @@ p {
   padding: 3% 2%;
 }
 
-/* CTA Section */
+/* COMMUNITY INVOLVEMENT */
+.community-images{
+  position: relative;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10%;
+  width:70%;
+}
 
-/* References */
-
-/* Biography */
+.subtexter{
+  font-size: 2rem;
+}
 
 /*Contact*/
 /* Footer Section */
