@@ -10,7 +10,6 @@ body {
 p {
   color: white;
 } */
-
 /* Headings */
 .big-heading {
   font-family: "Montserrat";
@@ -37,7 +36,7 @@ p {
 
 .white-section {
   background-color: #fff;
-  color: #1f5f8b;
+  color: #1891ac;
 }
 
 /* Navigation Bar */
@@ -143,6 +142,21 @@ p {
   margin: 20px 20px 50px;
 }
 
+/**********************************************************************/
+/* Work Experience*/
+.work-image{
+  width: 60%;
+  margin: 5px;
+  padding: 10px;
+}
+
+.list-config{
+  text-align: left;
+  color:inherit;
+  font-weight: normal;
+}
+
+
 
 /**********************************************************************/
 /* Education */
@@ -154,7 +168,7 @@ p {
   padding: 3% 2%;
 }
 
-.cert-icon{
+.cert-icon {
   width: 125px;
   height: 100px;
   border-style: solid;
@@ -162,7 +176,7 @@ p {
   border-color: #1891ac;
 }
 
-.cert-icon-align{
+.cert-icon-align {
   text-align: center;
 }
 
@@ -174,12 +188,14 @@ p {
 
 .card-item {
   text-align: left;
-  color:#1f5f8b;
+  color: #1f5f8b;
 }
 
-/* .card-item:hover {
+.body-text {
+  text-align: center;
   color: #1f5f8b;
-} */
+}
+
 
 .card-heading {
   font-family: "Montserrat";
@@ -189,7 +205,7 @@ p {
   font-weight: bold;
 }
 
-.image-adjust{
+.image-adjust {
   position: relative;
   text-align: center;
   padding: 10px 10px 10px 10px;
@@ -219,10 +235,10 @@ p {
   width: 70%;
 }
 
-.carousel-arrow{
-background-color: #1891ac;
+.carousel-arrow {
+  background-color: #1891ac;
   color: #1891ac;
-  opacity:1.0;
+  opacity: 1.0;
   border-style: solid;
   border-radius: 10%;
 }
@@ -237,7 +253,6 @@ background-color: #1891ac;
   border-style: solid;
   border-radius: 10%;
 }
-
 
 .social-icon:hover {
   color: #d2ecf9;
