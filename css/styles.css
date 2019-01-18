@@ -156,6 +156,10 @@ p {
   font-weight: normal;
 }
 
+.languages-box{
+  text-align: center;
+  color:  #1891ac;
+}
 
 
 /**********************************************************************/
@@ -194,6 +198,7 @@ p {
 .body-text {
   text-align: center;
   color: #1f5f8b;
+  font-weight: bold;
 }
 
 
