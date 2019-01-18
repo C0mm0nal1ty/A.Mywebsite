@@ -165,7 +165,7 @@ p {
 /**********************************************************************/
 /* Education */
 #education {
-  padding: 100px;
+  /* padding: 100px; */
 }
 
 .pricing-column {
@@ -197,7 +197,7 @@ p {
 
 .card-item {
   text-align: left;
-  color: orange;
+  color: #1891ac;
 }
 
 .body-text {
