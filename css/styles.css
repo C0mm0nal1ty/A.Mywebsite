@@ -95,13 +95,13 @@ p {
 }
 
 /* Features Section */
-#features {
+/* #features {
   position: relative;
 }
 
 .feature-title {
   font-size: 1.5rem;
-}
+} */
 
 .feature-box {
   padding: 4.5%;
@@ -117,11 +117,11 @@ p {
 }
 
 /* Testimonial Section */
-#testimonials {
+/* #testimonials {
   background-color: #1891ac;
-}
+} */
 
-.testimonial-text {
+/* .testimonial-text {
   font-size: 3rem;
   line-height: 1.5;
 }
@@ -130,17 +130,17 @@ p {
   width: 10%;
   border-radius: 100%;
   margin: 20px;
-}
+} */
 
-#press {
+/* #press {
   background-color: #1891ac;
   padding-bottom: 3%;
-}
+} */
 
-.press-logo {
+/* .press-logo {
   width: 15%;
   margin: 20px 20px 50px;
-}
+} */
 
 /**********************************************************************/
 /* Work Experience*/
