@@ -21,6 +21,7 @@ p {
   font-size: 3rem;
   line-height: 1.5;
   font-weight: bold;
+  padding-top: 20px;
 }
 
 /* Containers */
@@ -30,11 +31,13 @@ p {
 
 /* Sections */
 .colored-section {
+  /* margin-top: 20px; */
   background-color: #1f5f8b;
   color: #fff;
 }
 
 .white-section {
+  /* margin-top: 20px; */
   background-color: #fff;
   color: #1891ac;
 }
@@ -102,7 +105,6 @@ p {
 .feature-title {
   font-size: 1.5rem;
 } */
-
 .feature-box {
   padding: 4.5%;
 }
@@ -120,7 +122,6 @@ p {
 /* #testimonials {
   background-color: #1891ac;
 } */
-
 /* .testimonial-text {
   font-size: 3rem;
   line-height: 1.5;
@@ -131,36 +132,32 @@ p {
   border-radius: 100%;
   margin: 20px;
 } */
-
 /* #press {
   background-color: #1891ac;
   padding-bottom: 3%;
 } */
-
 /* .press-logo {
   width: 15%;
   margin: 20px 20px 50px;
 } */
-
 /**********************************************************************/
 /* Work Experience*/
-.work-image{
+.work-image {
   width: 60%;
   margin: 5px;
   padding: 10px;
 }
 
-.list-config{
+.list-config {
   text-align: left;
-  color:inherit;
+  color: inherit;
   font-weight: normal;
 }
 
-.languages-box{
+.languages-box {
   text-align: center;
-  color:  #1891ac;
+  color: #1891ac;
 }
-
 
 /**********************************************************************/
 /* Education */
@@ -172,8 +169,8 @@ p {
   padding: 3% 2%;
 }
 
-.pad-none{
-  padding:0;
+.pad-none {
+  padding: 0;
 }
 
 .cert-icon {
@@ -182,7 +179,7 @@ p {
   border-style: solid;
   border-radius: 10%;
   border-color: #1891ac;
-  margin:2px;
+  margin: 2px;
 }
 
 .cert-icon-align {
@@ -205,7 +202,6 @@ p {
   color: #1f5f8b;
   font-weight: bold;
 }
-
 
 .card-heading {
   font-family: "Montserrat";
